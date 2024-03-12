@@ -13,8 +13,8 @@
   "license": "MIT",
   "author": "Marlon Villa Nino <ninomarlonvilla@gmail.com>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
+    "serve": "concurrently \"postcss ./tailwind.css -o build.css --watch\"  \"live-server ./ \"",
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./build.css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
